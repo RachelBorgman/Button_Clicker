@@ -1,0 +1,130 @@
+@font-face {
+    font-family:'Poppins';
+    src: url('Poppins/Poppins-ExtraLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Poppins-Bold';
+    src: url('Poppins/Poppins-SemiBold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Poppins-Italic';
+    src: url('Poppins/Poppins-Italic.ttf');
+    font-weight: normal;
+    font-style:italic;
+}
+ *{
+    margin-top:0px;
+    font-family:'Poppins';
+}
+.container{
+    margin:0 80px;
+}
+.header{
+    background-color: lightgray;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+h1{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:30px;
+}
+.header input{
+    border: 2px solid black;
+    height: 30px;
+    width: 300px;
+    margin-top:30px;
+}
+.header button{
+    background-color: blue;
+    color: white;
+    position: right;
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 5px 5px black;
+    margin: 30px;
+}
+.content{
+    display: flex;
+}
+h2{
+    font-family: 'Poppins-Bold';
+}
+.def_1{
+    background-color:white;
+    width:400px;
+    height: auto;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.def_1_left{
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+.def_1_right{
+    margin:auto;
+}
+.def_1 button{
+    background-color: rgb(241, 241, 101);
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+
+}
+.def_2{
+    background-color: white;
+    width:400px;
+    height: auto;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+.def_2_left{
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+.def_2_right{
+    margin:auto;
+}
+.def_2 button{
+    background-color: rgb(241, 241, 101);
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.dojonary{
+    background-color: white;
+    width:300px;
+    height: 200px;
+    border: 2px solid black;
+    font-size: x-large;
+    padding: 20px;
+    margin: 20px;
+}
+.you{
+    font-family: 'Poppins-Bold';
+}
+.dojonary button{
+    background-color:seagreen;
+    width: 150px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    display: block;
+}
